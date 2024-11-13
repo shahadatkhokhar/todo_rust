@@ -1,0 +1,19 @@
+[package]
+name = "todo_bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "4.5.20"
+color-eyre = "0.6.3"
+colored = "2.1.0"
+console = "0.15.8"
+dialoguer = "0.11.0"
+rusqlite = "0.32.1"
+serde = "1.0.210"
+thiserror = "1.0.64"
+tui = "0.19.0"
+
+[[bin]]
+name = "todo"
+path = "src/main.rs"
